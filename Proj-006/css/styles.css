@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    padding: 5rem;
+}
+
+.container {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 0.25rem 0.125rem rgba(0, 0, 0, 0.075);
+    width: 25%;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+.container-title {
+    color: #202020;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-produzir {
+    padding: 0.375rem 2rem;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-quantidade {
+    padding: 0.375rem 0.5rem;
+    border: 1px solid #202020;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
